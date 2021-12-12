@@ -50,7 +50,6 @@ class TasksAdapter(private val listener: OnItemClickListener) : ListAdapter<Task
                 textViewName.text = task.name
                 textViewName.paint.isStrikeThruText = task.completed
                 labelPriority.isVisible = task.important
-
             }
         }
 
